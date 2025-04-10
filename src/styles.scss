@@ -1,1 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
+
+@use '@angular/material' as mat;
+
+html, body { 
+  height: 100%; 
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif; 
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+main {
+  min-height: 70vh;
+  padding: 30px 0;
+}
+
+/* Insurance themed colors */
+:root {
+  --primary-color: #005baa;
+  --secondary-color: #0076ce;
+  --accent-color: #004080;
+  --light-color: #e8f4ff;
+  --text-color: #333333;
+  --white-color: #ffffff;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 0 15px;
+  }
+  
+  main {
+    padding: 20px 0;
+  }
+}
