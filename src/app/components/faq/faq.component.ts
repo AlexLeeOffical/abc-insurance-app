@@ -18,7 +18,7 @@ export class FaqComponent {
   faqItems: FaqItem[] = [
     {
       question: 'How do I find my policy number?',
-      answer: 'Your policy number can be found on your policy documents, insurance cards, or by logging into your MSIG account. For assistance, contact MSIG support.'
+      answer: 'Your policy number can be found on your policy documents, insurance cards, or by logging into your ABC account. For assistance, contact ABC support.'
     },
     {
       question: 'Do I need to submit the original supporting documents through post?',
@@ -30,7 +30,7 @@ export class FaqComponent {
     },
     {
       question: 'Is there a time limit on filing my claim?',
-      answer: 'Yes, claims should be filed as soon as possible, typically within 30 days of the incident. Specific timeframes may vary by policy type. Contact MSIG support for details.'
+      answer: 'Yes, claims should be filed as soon as possible, typically within 30 days of the incident. Specific timeframes may vary by policy type. Contact ABC support for details.'
     },
     {
       question: 'Should I wait until all the supporting documents are available?',
@@ -42,15 +42,15 @@ export class FaqComponent {
     },
     {
       question: 'How will I receive the Notification No. and Claim No.?',
-      answer: 'These numbers will be sent to you via email and SMS after you submit your claim. You can also view them in your online MSIG account.'
+      answer: 'These numbers will be sent to you via email and SMS after you submit your claim. You can also view them in your online ABC account.'
     },
     {
       question: 'What should I do if I want to receive my claim settlement by cheque?',
-      answer: 'While electronic payments are preferred for faster processing, you can request settlement by cheque by selecting this option during the claim submission process. Contact MSIG support for details.'
+      answer: 'While electronic payments are preferred for faster processing, you can request settlement by cheque by selecting this option during the claim submission process. Contact ABC support for details.'
     },
     {
       question: 'If my claim has more than one claimant, what should I do if I want settlement to be payable to each claimant?',
-      answer: 'For claims with multiple claimants, you should specify this during the claim submission process. Each claimant will need to provide their details separately. Contact MSIG support for details on this specific procedure.'
+      answer: 'For claims with multiple claimants, you should specify this during the claim submission process. Each claimant will need to provide their details separately. Contact ABC support for details on this specific procedure.'
     }
   ];
 }
